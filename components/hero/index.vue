@@ -5,10 +5,10 @@ import Header from "~/components/global/Header.vue";
 <template>
   <section class="relative">
     <Header />
-    <div class="grid grid-cols-2 items-center">
+    <div class="grid grid-cols-1 sm:grid-cols-2 items-center">
       <div>
-        <div class="px-5 py-20 space-y-4 mt-12">
-          <h1 class="capitalize text-6xl">
+        <div class="px-5 py-20 space-y-4 sm:mt-12">
+          <h1 class="capitalize text-5xl sm:text-6xl">
             <span class="font-semibold text-[#1B1C57]"
               >find the place to live</span
             >
@@ -59,18 +59,18 @@ import Header from "~/components/global/Header.vue";
           </div>
           <div class="-mt-5">
             <p class="text-[#888B97]">Our Partnership</p>
-            <div class="flex items-center space-x-4">
-              <nuxt-picture src="/images/traveloka.jpg" />
-              <nuxt-picture src="/images/tiket.jpg" />
-              <nuxt-picture src="/images/airbnb.jpg" />
-              <nuxt-picture src="/images/tripadvisor.jpg" />
+            <div class="flex items-center space-x-2 sm:space-x-4">
+              <nuxt-img src="/images/traveloka.jpg" class="w-20 sm:w-24 shrink-0" />
+              <nuxt-img src="/images/tiket.jpg" class="w-20 sm:w-24 shrink-0"/>
+              <nuxt-img src="/images/airbnb.jpg" class="w-20 sm:w-24 shrink-0"/>
+              <nuxt-img src="/images/tripadvisor.jpg" class="w-20 sm:w-24 shrink-0"/>
             </div>
           </div>
         </div>
       </div>
       <div class="relative">
-        <nuxt-picture src="/images/banner.jpg" alt="banner image" />
-        <div class="absolute bottom-20 left-8 flex items-center space-x-3 overflow-hidden">
+        <nuxt-img src="/images/banner.jpg" alt="banner image" class="-mr-40 overflow-hidden sm:-mr-0"/>
+        <div class="absolute bottom-6 sm:bottom-20 left-3 sm:left-8 flex items-center space-x-3 overflow-hidden">
           <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
             <div class="flex -space-x-4 overflow-hidden">
               <img

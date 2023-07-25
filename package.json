@@ -13,7 +13,8 @@
     "@nuxt/image": "^1.0.0-rc.1",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.0",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "nuxt-icon": "^0.4.2"
   },
   "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "1.0.0",

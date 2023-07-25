@@ -7,7 +7,7 @@ import Logo from './Logo.vue';
         <div class="flex items-center justify-between">
             <Logo />
             <div class="flex items-center justify-between space-x-16">
-                <ul class="flex items-center space-x-6">
+                <ul class="hidden md:flex items-center space-x-6">
                     <li><NuxtLink to="#" class="border bg-transparent text-semibold px-4 py-2 bg-[#96CBE5] text-white rounded-full">About Us</NuxtLink></li>
                     <li><NuxtLink to="#" class="border bg-transparent text-semibold px-4 py-2 bg-[#96CBE5] text-white rounded-full">Article</NuxtLink></li>
                     <li>
@@ -17,7 +17,10 @@ import Logo from './Logo.vue';
                         </select>
                     </li>
                 </ul>
-                <NuxtLink to="#" class="px-4 py-2 text-semibold bg-[#D1FAE5] text-[#047857] rounded-full">Sign Up!</NuxtLink>
+                <NuxtLink to="#" class="hidden md:block px-4 py-2 text-semibold bg-[#D1FAE5] text-[#047857] rounded-full">Sign Up!</NuxtLink>
+                <button class="block md:hidden">
+                    <Icon name="charm:menu-hamburger" class="w-7 h-auto"/>
+                </button>
             </div>
         </div>
     </header>
