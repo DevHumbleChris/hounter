@@ -1,3 +1,3 @@
 <template>
-    <h1>Welcome To Hounter</h1>
+    <h1 class="text-green-400">Welcome To Hounter</h1>
 </template>
