@@ -68,7 +68,7 @@ import Header from "~/components/global/Header.vue";
           </div>
         </div>
       </div>
-      <div class="relative">
+      <div class="relative overflow-hidden">
         <nuxt-img src="/images/banner.jpg" alt="banner image" class="-mr-40 overflow-hidden sm:-mr-0"/>
         <div class="absolute bottom-6 sm:bottom-20 left-3 sm:left-8 flex items-center space-x-3 overflow-hidden">
           <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
