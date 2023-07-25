@@ -70,14 +70,9 @@ import Header from "~/components/global/Header.vue";
       </div>
       <div class="relative">
         <nuxt-picture src="/images/banner.jpg" alt="banner image" />
-        <div class="absolute bottom-20 left-8">
-          <div class="bg-white p-4 flex items-center space-x-2 rounded-xl">
+        <div class="absolute bottom-20 left-8 flex items-center space-x-3 overflow-hidden">
+          <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
             <div class="flex -space-x-4 overflow-hidden">
-              <img
-                class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
-                src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
-              />
               <img
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
@@ -97,6 +92,32 @@ import Header from "~/components/global/Header.vue";
             <div class="max-w-[8rem] space-y-1">
                 <p class="text-sm text-[#1B1C57]">1K+ People</p>
                 <p class="text-xs text-[#68799F]">Successfully Getting Home</p>
+            </div>
+          </div>
+          <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
+            <div class="flex -space-x-4 overflow-hidden">
+              <img
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
+                src="/images/house.jpg"
+                alt=""
+              />
+            </div>
+            <div class="max-w-[8rem] space-y-1">
+                <p class="text-sm text-[#1B1C57]">56 Houses</p>
+                <p class="text-xs text-[#68799F]">Sold Monthly</p>
+            </div>
+          </div>
+          <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
+            <div class="flex -space-x-4 overflow-hidden">
+              <img
+                class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                alt=""
+              />
+            </div>
+            <div class="max-w-[8rem] space-y-1">
+                <p class="text-sm text-[#1B1C57]">4K+</p>
+                <p class="text-xs text-[#68799F]">People Looking for New Homes</p>
             </div>
           </div>
         </div>
