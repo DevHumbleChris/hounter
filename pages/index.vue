@@ -6,7 +6,7 @@ import Hero from "~/components/hero/index.vue";
   <svg
     width="688"
     height="481"
-    class="absolute top-0 left-0 w-[26rem] sm:w-[42rem]"
+    class="absolute top-0 left-0 w-[25.3rem] sm:w-[42rem]"
     viewBox="0 0 688 481"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
