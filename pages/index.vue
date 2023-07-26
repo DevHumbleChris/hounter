@@ -1,5 +1,6 @@
 <script setup>
 import Hero from "~/components/hero/index.vue";
+import Featured from '~/components/featured/index.vue'
 </script>
 
 <template>
@@ -72,6 +73,6 @@ import Hero from "~/components/hero/index.vue";
       </filter>
     </defs>
   </svg>
-
   <Hero />
+  <Featured />
 </template>
