@@ -48,7 +48,7 @@ const houses = useState("houses", () => {
       price: "$ 22.000.000",
       imgURL: "/images/featured/Cosmo'sHouse.jpg",
       owner: {
-        imgUrl: "/images/featured/RonaldRichards.jpg",
+        imgUrl: "/images/featured/JennyWilson.jpg",
         name: "Jenny Wilson",
         address: "Preston Rd. Inglewood, Maine 98380",
       },
@@ -62,9 +62,9 @@ const houses = useState("houses", () => {
 </script>
 
 <template>
-  <section class="my-10 px-16">
+  <section class="my-20 p-5 sm:px-16">
     <div class="space-y-6">
-      <div class="flex items-center justify-between">
+      <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center justify-between">
         <div>
           <div class="flex items-center space-x-3">
             <svg
