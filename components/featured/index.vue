@@ -177,7 +177,7 @@ const houses = useState("houses", () => {
           </button>
         </div>
       </div>
-      <div class="flex items-center space-x-8 overflow-hidden">
+      <div class="flex items-center space-x-8 overflow-x-scroll scrollbar-hide">
         <div
           v-for="(house, index) in houses"
           :key="index"

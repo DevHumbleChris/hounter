@@ -510,6 +510,7 @@
     "supports-preserve-symlinks-flag": "^1.0.0",
     "svg-tags": "^1.0.0",
     "svgo": "^3.0.2",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "tapable": "^2.2.1",
     "tar": "^6.1.15",
     "tar-stream": "^1.6.2",

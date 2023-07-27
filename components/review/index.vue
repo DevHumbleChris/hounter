@@ -19,7 +19,7 @@
           What Our User Say About Us
         </p>
       </div>
-      <div class="flex items-center space-x-6 h-[30rem] overflow-hidden">
+      <div class="flex items-center space-x-6 h-[30rem] overflow-x-scroll scrollbar-hide">
         <div class="relative shrink-0 -mt-40">
           <nuxt-img
             src="/images/review/best.jpg"
