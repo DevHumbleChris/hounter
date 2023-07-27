@@ -2,10 +2,11 @@
 import Hero from "~/components/hero/index.vue";
 import Featured from '~/components/featured/index.vue'
 import OurHouse from '~/components/our-house/index.vue'
+import Review from '~/components/review/index.vue'
 </script>
 
 <template>
-  <svg
+  <!-- <svg
     width="688"
     height="481"
     class="absolute top-0 left-0 w-[20rem] sm:w-[42rem]"
@@ -76,5 +77,6 @@ import OurHouse from '~/components/our-house/index.vue'
   </svg>
   <Hero />
   <Featured />
-  <OurHouse />
+  <OurHouse /> -->
+  <Review />
 </template>
