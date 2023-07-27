@@ -134,7 +134,11 @@
             <hr class="bg-[#F0F3FD]" />
           </div>
           <div class="flex items-center justify-between max-w-xs">
-            <nuxt-img src="/images/featured/Dianne.jpg" alt="Dianne.jpg" />
+            <nuxt-img
+              format="webp"
+              src="/images/featured/Dianne.jpg"
+              alt="Dianne.jpg"
+            />
             <div>
               <p class="text-[0.8rem] font-medium text-[#0E1735]">
                 Dianne Russell
@@ -166,6 +170,7 @@
           src="/images/our-house.jpg"
           alt="our-house"
           class="cursor-pointer"
+          format="webp"
         />
         <svg
           class="hidden md:block absolute -top-[20rem] -right-16 max-w-[40rem]"

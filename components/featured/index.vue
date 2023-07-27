@@ -181,6 +181,7 @@ const houses = useState("houses", () => {
               :src="house.imgURL"
               :alt="house.imgURL"
               class="w-full h-72 object-cover"
+              format="webp"
             />
             <div
               class="absolute bottom-4 left-4 px-3 py-2 rounded-full flex items-center space-x-1"
@@ -190,7 +191,7 @@ const houses = useState("houses", () => {
                 'bg-[#D1FAE5]': house.tag.name === 'Best Deals',
               }"
             >
-              <nuxt-img :src="house.tag.icon" :alt="house.tag.name" />
+              <nuxt-img :src="house.tag.icon" :alt="house.tag.name" format="webp" />
               <p
                 class="text-[0.6rem] mt-[2px]"
                 :class="{
@@ -212,6 +213,7 @@ const houses = useState("houses", () => {
               :src="house.owner.imgUrl"
               :alt="house.owner.name"
               class="rounded-full w-8 h-8"
+              format="webp"
             />
             <div>
               <p class="text-[0.8rem] font-medium text-[#0E1735]">

@@ -25,6 +25,7 @@
             src="/images/review/best.jpg"
             alt="review-best"
             class="h-[20rem] w-full object-contain"
+            format="webp"
           />
           <div
             class="absolute shrink-0 -bottom-[3rem] left-4 sm:left-[3rem] w-[21rem] sm:w-[30rem] space-y-3 border rounded-2xl bg-white p-5"
@@ -69,6 +70,7 @@
             src="/images/review/best.jpg"
             alt="review-best"
             class="h-[20rem] w-full object-contain"
+            format="webp"
           />
           <div
             class="absolute shrink-0 -bottom-[3rem] left-4 sm:left-[3rem] w-[21rem] sm:w-[30rem] space-y-3 border rounded-2xl bg-white p-5"
@@ -83,7 +85,7 @@
               very helpful!
             </p>
             <div class="flex items-center justify-between">
-              <nuxt-img src="/images/featured/Dianne.jpg" alt="Dianne.jpg" />
+              <nuxt-img format="webp" src="/images/featured/Dianne.jpg" alt="Dianne.jpg" />
               <div>
                 <p class="text-[0.8rem] font-medium text-[#0E1735]">
                   Esther Howard

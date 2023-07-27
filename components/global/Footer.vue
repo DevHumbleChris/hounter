@@ -4,10 +4,10 @@ import Logo from "./Logo.vue";
 
 <template>
   <footer class="my-10 p-3 sm:px-16">
-    <div class="flex items-center">
+    <div class="flex flex-col sm:flex-row items-center gap-y-10 sm:gap-20">
       <div class="space-y-3">
         <Logo />
-        <p class="text-[#626687]">
+        <p class="text-[#626687] text-sm">
           We provide information about properties such as houses, villas and
           apartments to help people find their dream home
         </p>
@@ -50,7 +50,33 @@ import Logo from "./Logo.vue";
           </svg>
         </div>
       </div>
-      <div></div>
+      <div class="-ml-20 sm:-ml-0 grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div class="space-y-3">
+          <h2 class="text-[#0E1735] font-semibold text-xl">Property</h2>
+          <ul class="space-y-3">
+            <li class="text-[#888B97] text-sm"> <NuxtLink to="#">House</NuxtLink></li>
+            <li class="text-[#888B97] text-sm"> <NuxtLink to="#">Apartment</NuxtLink></li>
+            <li class="text-[#888B97] text-sm"> <NuxtLink to="#">Villa</NuxtLink></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h2 class="text-[#0E1735] font-semibold text-xl">Article</h2>
+          <ul class="space-y-3">
+            <li class="text-[#888B97] text-sm"> <NuxtLink to="#">New Article</NuxtLink></li>
+            <li class="text-[#888B97] text-sm"> <NuxtLink to="#">Popular Article</NuxtLink></li>
+            <li class="text-[#888B97] text-sm"> <NuxtLink to="#">Most Read</NuxtLink></li>
+            <li class="text-[#888B97] text-sm"> <NuxtLink to="#">Tips & Tricks</NuxtLink></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h2 class="text-[#0E1735] font-semibold text-xl">Contact</h2>
+          <ul class="space-y-3">
+            <li class="text-[#888B97] text-sm cursor-pointer">2464 Royal Ln. Mesa, New Jersey 45463</li>
+            <li class="text-[#888B97] text-sm cursor-pointer">(671) 555-0110</li>
+            <li class="text-[#888B97] text-sm cursor-pointer">info@hounter.com</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 </template>

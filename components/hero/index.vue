@@ -60,64 +60,97 @@ import Header from "~/components/global/Header.vue";
           <div class="-mt-5">
             <p class="text-[#888B97]">Our Partnership</p>
             <div class="flex items-center space-x-2 sm:space-x-4">
-              <nuxt-img src="/images/traveloka.jpg" class="w-20 sm:w-24 shrink-0" />
-              <nuxt-img src="/images/tiket.jpg" class="w-20 sm:w-24 shrink-0"/>
-              <nuxt-img src="/images/airbnb.jpg" class="w-20 sm:w-24 shrink-0"/>
-              <nuxt-img src="/images/tripadvisor.jpg" class="w-20 sm:w-24 shrink-0"/>
+              <nuxt-img
+                format="webp"
+                src="/images/traveloka.jpg"
+                class="w-20 sm:w-24 shrink-0"
+              />
+              <nuxt-img
+                format="webp"
+                src="/images/tiket.jpg"
+                class="w-20 sm:w-24 shrink-0"
+              />
+              <nuxt-img
+                format="webp"
+                src="/images/airbnb.jpg"
+                class="w-20 sm:w-24 shrink-0"
+              />
+              <nuxt-img
+                format="webp"
+                src="/images/tripadvisor.jpg"
+                class="w-20 sm:w-24 shrink-0"
+              />
             </div>
           </div>
         </div>
       </div>
       <div class="relative overflow-hidden">
-        <nuxt-img src="/images/banner.jpg" alt="banner image" class="-mr-40 overflow-hidden sm:-mr-0"/>
-        <div class="absolute bottom-6 sm:bottom-20 left-3 sm:left-8 flex items-center space-x-3 overflow-hidden">
-          <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
+        <nuxt-img
+          src="/images/banner.jpg"
+          alt="banner image"
+          class="-mr-40 overflow-hidden sm:-mr-0"
+        />
+        <div
+          class="absolute bottom-6 sm:bottom-20 left-3 sm:left-8 flex items-center space-x-3 overflow-hidden"
+        >
+          <div
+            class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl"
+          >
             <div class="flex -space-x-4 overflow-hidden">
-              <img
+              <nuxt-img
+                format="webp"
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
+                alt="unsplash-img-1"
               />
-              <img
+              <nuxt-img
+                format="webp"
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
-                alt=""
+                alt="unsplash-img-2"
               />
-              <img
+              <nuxt-img
+                format="webp"
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
+                alt="unsplash-img-3"
               />
             </div>
             <div class="max-w-[8rem] space-y-1">
-                <p class="text-sm text-[#1B1C57]">1K+ People</p>
-                <p class="text-xs text-[#68799F]">Successfully Getting Home</p>
+              <p class="text-sm text-[#1B1C57]">1K+ People</p>
+              <p class="text-xs text-[#68799F]">Successfully Getting Home</p>
             </div>
           </div>
-          <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
+          <div
+            class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl"
+          >
             <div class="flex -space-x-4 overflow-hidden">
-              <img
+              <nuxt-img
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="/images/house.jpg"
-                alt=""
+                alt="images-house"
+                format="webp"
               />
             </div>
             <div class="max-w-[8rem] space-y-1">
-                <p class="text-sm text-[#1B1C57]">56 Houses</p>
-                <p class="text-xs text-[#68799F]">Sold Monthly</p>
+              <p class="text-sm text-[#1B1C57]">56 Houses</p>
+              <p class="text-xs text-[#68799F]">Sold Monthly</p>
             </div>
           </div>
-          <div class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl">
+          <div
+            class="bg-white shrink-0 p-4 flex items-center space-x-2 rounded-3xl"
+          >
             <div class="flex -space-x-4 overflow-hidden">
-              <img
+              <nuxt-img
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                alt=""
+                alt="unsplash-sold"
+                format="webp"
               />
             </div>
             <div class="max-w-[8rem] space-y-1">
-                <p class="text-sm text-[#1B1C57]">4K+</p>
-                <p class="text-xs text-[#68799F]">People Looking for New Homes</p>
+              <p class="text-sm text-[#1B1C57]">4K+</p>
+              <p class="text-xs text-[#68799F]">People Looking for New Homes</p>
             </div>
           </div>
         </div>
