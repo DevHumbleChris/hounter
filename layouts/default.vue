@@ -1,4 +1,5 @@
 <script setup>
+import FooterVue from '~/components/global/Footer.vue';
 useHead({
   htmlAttrs: {
     lang: 'en',
@@ -19,5 +20,6 @@ useHead({
 <template>
   <main class="max-w-9xl font-lexend">
     <slot/>
+    <Footer />
   </main>
 </template>
