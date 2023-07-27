@@ -3,7 +3,12 @@
     <div
       class="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4 rounded-2xl items-center bg-gradient-to-r from-[#a1c0f9] via-white to-[#a1c0f9]"
     >
-      <nuxt-img src="/images/right.png" alt="right-img" class="mx-auto max-w-20" />
+      <nuxt-img
+        format="webp"
+        src="/images/right.png"
+        alt="right-img"
+        class="mx-auto max-w-20"
+      />
       <div class="space-y-3 mb-6 sm:mb-0">
         <p class="capitalize text-center text-2xl text-[#1B1C57] font-semibold">
           Subscribe For More Info and update from Hounter
@@ -35,7 +40,12 @@
           </button>
         </div>
       </div>
-      <nuxt-img src="/images/left.png" alt="left-img" class="mx-auto max-w-20" />
+      <nuxt-img
+        format="webp"
+        src="/images/left.png"
+        alt="left-img"
+        class="mx-auto max-w-20"
+      />
     </div>
   </section>
 </template>

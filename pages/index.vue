@@ -1,10 +1,10 @@
 <script setup>
 import Hero from "~/components/hero/index.vue";
-import Featured from '~/components/featured/index.vue'
-import OurHouse from '~/components/our-house/index.vue'
-import Review from '~/components/review/index.vue'
-import TipsAndTricks from '~/components/tips-and-tricks/index.vue'
-import Subscribe from '~/components/subscribe/index.vue'
+import Featured from "~/components/featured/index.vue";
+import OurHouse from "~/components/our-house/index.vue";
+import Review from "~/components/review/index.vue";
+import TipsAndTricks from "~/components/tips-and-tricks/index.vue";
+import Subscribe from "~/components/subscribe/index.vue";
 </script>
 
 <template>

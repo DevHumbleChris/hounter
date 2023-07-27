@@ -30,6 +30,7 @@
               src="/images/tips-and-tricks/image1.jpg"
               alt="tips-and-tricks/image1"
               class="h-32 object-cover"
+              format="webp"
             />
             <div class="space-y-3">
               <div class="flex items-center space-x-2">
@@ -37,6 +38,7 @@
                   src="/images/Dianne.jpg"
                   alt="Dianne"
                   class="w-6 h-6"
+                  format="webp"
                 />
                 <p class="text-xs text-[#3C4563]">Dianne Russell</p>
               </div>
@@ -66,6 +68,7 @@
               src="/images/tips-and-tricks/image2.jpg"
               alt="tips-and-tricks/image2"
               class="h-32 object-cover"
+              format="webp"
             />
             <div class="space-y-3">
               <div class="flex items-center space-x-2">
@@ -73,6 +76,7 @@
                   src="/images/featured/RobertFox.jpg"
                   alt="Courtney Henry"
                   class="w-6 h-6"
+                  format="webp"
                 />
                 <p class="text-xs text-[#3C4563]">Courtney Henry</p>
               </div>
@@ -102,6 +106,7 @@
               src="/images/tips-and-tricks/image3.jpg"
               alt="tips-and-tricks/image3"
               class="h-32 object-cover"
+              format="webp"
             />
             <div class="space-y-3">
               <div class="flex items-center space-x-2">
@@ -109,6 +114,7 @@
                   src="/images/featured/RonaldRichards.jpg"
                   alt="Darlene Robertson"
                   class="w-6 h-6"
+                  format="webp"
                 />
                 <p class="text-xs text-[#3C4563]">Darlene Robertson</p>
               </div>
@@ -138,11 +144,16 @@
           <nuxt-img
             src="/images/tips-and-tricks/big-img.jpg"
             alt="tips-and-tricks/image1"
-            class=""
+            format="webp"
           />
           <div class="space-y-3">
             <div class="flex items-center space-x-2">
-              <nuxt-img src="/images/Dianne.jpg" alt="Dianne" class="w-6 h-6" />
+              <nuxt-img
+                format="webp"
+                src="/images/Dianne.jpg"
+                alt="Dianne"
+                class="w-6 h-6"
+              />
               <p class="text-xs text-[#3C4563]">Dianne Russell</p>
             </div>
             <p class="text-[#1B1C57] text-xl font-medium">

@@ -39,7 +39,11 @@
               to be able to find information on the house we want.
             </p>
             <div class="flex items-center justify-between">
-              <nuxt-img src="/images/featured/Dianne.jpg" alt="Dianne.jpg" />
+              <nuxt-img
+                format="webp"
+                src="/images/featured/Dianne.jpg"
+                alt="Dianne.jpg"
+              />
               <div>
                 <p class="text-[0.8rem] font-medium text-[#0E1735]">
                   Dianne Russell
@@ -85,7 +89,11 @@
               very helpful!
             </p>
             <div class="flex items-center justify-between">
-              <nuxt-img format="webp" src="/images/featured/Dianne.jpg" alt="Dianne.jpg" />
+              <nuxt-img
+                format="webp"
+                src="/images/featured/Dianne.jpg"
+                alt="Dianne.jpg"
+              />
               <div>
                 <p class="text-[0.8rem] font-medium text-[#0E1735]">
                   Esther Howard
