@@ -65,21 +65,37 @@ import Header from "~/components/global/Header.vue";
                 format="webp"
                 src="/images/traveloka.jpg"
                 class="w-20 sm:w-24 shrink-0"
+                quality="80"
+                width="83"
+                height="64"
+                alt="traveloka"
               />
               <nuxt-img
                 format="webp"
                 src="/images/tiket.jpg"
                 class="w-20 sm:w-24 shrink-0"
+                quality="80"
+                width="83"
+                height="64"
+                alt="tiket.com"
               />
               <nuxt-img
                 format="webp"
                 src="/images/airbnb.jpg"
                 class="w-20 sm:w-24 shrink-0"
+                quality="80"
+                width="83"
+                height="64"
+                alt="airbnb"
               />
               <nuxt-img
                 format="webp"
                 src="/images/tripadvisor.jpg"
                 class="w-20 sm:w-24 shrink-0"
+                quality="80"
+                width="83"
+                height="64"
+                alt="tripadvisor"
               />
             </div>
           </div>
@@ -90,6 +106,9 @@ import Header from "~/components/global/Header.vue";
           src="/images/banner.jpg"
           alt="banner image"
           class="-mr-40 overflow-hidden sm:-mr-0"
+          quality="80"
+          width="720"
+          height="720"
         />
         <div
           class="absolute bottom-6 sm:bottom-20 left-3 sm:left-8 flex items-center space-x-3 overflow-hidden"
@@ -103,18 +122,27 @@ import Header from "~/components/global/Header.vue";
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt="unsplash-img-1"
+                quality="80"
+                width="256"
+                height="256"
               />
               <nuxt-img
                 format="webp"
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80"
                 alt="unsplash-img-2"
+                quality="80"
+                width="256"
+                height="256"
               />
               <nuxt-img
                 format="webp"
                 class="inline-block h-10 w-10 rounded-full ring-2 ring-white"
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt="unsplash-img-3"
+                quality="80"
+                width="256"
+                height="256"
               />
             </div>
             <div class="max-w-[8rem] space-y-1">
@@ -131,6 +159,8 @@ import Header from "~/components/global/Header.vue";
                 src="/images/house.jpg"
                 alt="images-house"
                 format="webp"
+                width="56"
+                height="56"
               />
             </div>
             <div class="max-w-[8rem] space-y-1">
@@ -147,6 +177,9 @@ import Header from "~/components/global/Header.vue";
                 src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt="unsplash-sold"
                 format="webp"
+                quality="80"
+                width="256"
+                height="256"
               />
             </div>
             <div class="max-w-[8rem] space-y-1">

@@ -1,27 +1,35 @@
 <template>
   <section class="my-10 p-3 sm:px-16 -mt-24">
     <div class="space-y-12">
-      <div class="flex flex-col items-center">
-        <div class="flex flex-col items-center space-y-2">
-          <svg
-            width="32"
-            height="1"
-            viewBox="0 0 32 1"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+      <div class="flex flex-col items-center space-y-2">
+        <div>
+          <div class="flex flex-col items-center space-y-2">
+            <svg
+              width="32"
+              height="1"
+              viewBox="0 0 32 1"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="32" height="1" fill="#F59E0B" />
+            </svg>
+  
+            <p class="text-[#F59E0B] text-[0.7rem]">
+              See tips and trick from our partnership
+            </p>
+          </div>
+          <p
+            class="text-[#1B1C57] font-semibold text-2xl max-w-xs text-center capitalize"
           >
-            <rect width="32" height="1" fill="#F59E0B" />
-          </svg>
-
-          <p class="text-[#F59E0B] text-[0.7rem]">
-            See tips and trick from our partnership
+            Find out more about selling and buying homes
           </p>
         </div>
-        <p
-          class="text-[#1B1C57] font-semibold text-2xl max-w-xs text-center capitalize"
+        <button
+          aria-label="More Article"
+          class="block bg-[#10B981] rounded-full flex items-center px-3 py-3 justify-center text-white text-center text-xs"
         >
-          Find out more about selling and buying homes
-        </p>
+          More Article
+        </button>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
         <div class="space-y-5">
@@ -31,6 +39,9 @@
               alt="tips-and-tricks/image1"
               class="h-32 object-cover"
               format="webp"
+              quality="80"
+              width="200"
+              height="144"
             />
             <div class="space-y-3">
               <div class="flex items-center space-x-2">
@@ -39,6 +50,9 @@
                   alt="Dianne"
                   class="w-6 h-6"
                   format="webp"
+                  quality="80"
+                  width="32"
+                  height="32"
                 />
                 <p class="text-xs text-[#3C4563]">Dianne Russell</p>
               </div>
@@ -69,6 +83,9 @@
               alt="tips-and-tricks/image2"
               class="h-32 object-cover"
               format="webp"
+              quality="80"
+              width="200"
+              height="144"
             />
             <div class="space-y-3">
               <div class="flex items-center space-x-2">
@@ -77,6 +94,9 @@
                   alt="Courtney Henry"
                   class="w-6 h-6"
                   format="webp"
+                  quality="80"
+                  width="32"
+                  height="32"
                 />
                 <p class="text-xs text-[#3C4563]">Courtney Henry</p>
               </div>
@@ -107,6 +127,9 @@
               alt="tips-and-tricks/image3"
               class="h-32 object-cover"
               format="webp"
+              quality="80"
+              width="200"
+              height="144"
             />
             <div class="space-y-3">
               <div class="flex items-center space-x-2">
@@ -115,6 +138,9 @@
                   alt="Darlene Robertson"
                   class="w-6 h-6"
                   format="webp"
+                  quality="80"
+                  width="32"
+                  height="32"
                 />
                 <p class="text-xs text-[#3C4563]">Darlene Robertson</p>
               </div>
@@ -145,6 +171,9 @@
             src="/images/tips-and-tricks/big-img.jpg"
             alt="tips-and-tricks/image1"
             format="webp"
+            quality="80"
+            width="560"
+            height="280"
           />
           <div class="space-y-3">
             <div class="flex items-center space-x-2">
@@ -153,8 +182,11 @@
                 src="/images/Dianne.jpg"
                 alt="Dianne"
                 class="w-6 h-6"
+                quality="80"
+                width="32"
+                height="32"
               />
-              <p class="text-xs text-[#3C4563]">Dianne Russell</p>
+              <p class="text-xs text-[#3C4563]">Cameron Williamson</p>
             </div>
             <p class="text-[#1B1C57] text-xl font-medium">
               12 Things to know before buying a house

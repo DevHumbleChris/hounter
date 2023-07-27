@@ -189,6 +189,9 @@ const houses = useState("houses", () => {
               :alt="house.imgURL"
               class="w-full h-72 object-cover"
               format="webp"
+              quality="80"
+              width="340"
+              height="382"
             />
             <div
               class="absolute bottom-4 left-4 px-3 py-2 rounded-full flex items-center space-x-1"
@@ -202,6 +205,9 @@ const houses = useState("houses", () => {
                 :src="house.tag.icon"
                 :alt="house.tag.name"
                 format="webp"
+                quality="80"
+                width="16"
+                height="16"
               />
               <p
                 class="text-[0.6rem] mt-[2px]"
@@ -225,6 +231,9 @@ const houses = useState("houses", () => {
               :alt="house.owner.name"
               class="rounded-full w-8 h-8"
               format="webp"
+              quality="80"
+              width="40"
+              height="40"
             />
             <div>
               <p class="text-[0.8rem] font-medium text-[#0E1735]">

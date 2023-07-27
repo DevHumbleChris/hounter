@@ -8,6 +8,9 @@
         src="/images/right.png"
         alt="right-img"
         class="mx-auto max-w-20"
+        quality="80"
+        width="205"
+        height="195"
       />
       <div class="space-y-3 mb-6 sm:mb-0">
         <p class="capitalize text-center text-2xl text-[#1B1C57] font-semibold">
@@ -46,6 +49,9 @@
         src="/images/left.png"
         alt="left-img"
         class="mx-auto max-w-20"
+        quality="80"
+        width="205"
+        height="195"
       />
     </div>
   </section>

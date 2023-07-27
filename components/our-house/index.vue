@@ -138,6 +138,9 @@
               format="webp"
               src="/images/featured/Dianne.jpg"
               alt="Dianne.jpg"
+              quality="80"
+              width="56"
+              height="56"
             />
             <div>
               <p class="text-[0.8rem] font-medium text-[#0E1735]">
@@ -172,6 +175,9 @@
           alt="our-house"
           class="cursor-pointer"
           format="webp"
+          quality="80"
+          width="528"
+          height="459"
         />
         <svg
           class="hidden md:block absolute -top-[20rem] -right-16 max-w-[40rem]"

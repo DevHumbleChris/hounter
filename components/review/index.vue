@@ -26,6 +26,9 @@
             alt="review-best"
             class="h-[20rem] w-full object-contain"
             format="webp"
+            quality="80"
+            width="740"
+            height="400"
           />
           <div
             class="absolute shrink-0 -bottom-[3rem] left-4 sm:left-[3rem] w-[21rem] sm:w-[30rem] space-y-3 border rounded-2xl bg-white p-5"
@@ -43,6 +46,9 @@
                 format="webp"
                 src="/images/featured/Dianne.jpg"
                 alt="Dianne.jpg"
+                quality="80"
+                width="40"
+                height="40"
               />
               <div>
                 <p class="text-[0.8rem] font-medium text-[#0E1735]">
@@ -75,6 +81,9 @@
             alt="review-best"
             class="h-[20rem] w-full object-contain"
             format="webp"
+            quality="80"
+            width="740"
+            height="400"
           />
           <div
             class="absolute shrink-0 -bottom-[3rem] left-4 sm:left-[3rem] w-[21rem] sm:w-[30rem] space-y-3 border rounded-2xl bg-white p-5"
@@ -93,6 +102,9 @@
                 format="webp"
                 src="/images/featured/Dianne.jpg"
                 alt="Dianne.jpg"
+                quality="80"
+                width="40"
+                height="40"
               />
               <div>
                 <p class="text-[0.8rem] font-medium text-[#0E1735]">
