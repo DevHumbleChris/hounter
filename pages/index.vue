@@ -3,10 +3,12 @@ import Hero from "~/components/hero/index.vue";
 import Featured from '~/components/featured/index.vue'
 import OurHouse from '~/components/our-house/index.vue'
 import Review from '~/components/review/index.vue'
+import TipsAndTricks from '~/components/tips-and-tricks/index.vue'
+import Subscribe from '~/components/subscribe/index.vue'
 </script>
 
 <template>
-  <!-- <svg
+  <svg
     width="688"
     height="481"
     class="absolute top-0 left-0 w-[20rem] sm:w-[42rem]"
@@ -77,6 +79,8 @@ import Review from '~/components/review/index.vue'
   </svg>
   <Hero />
   <Featured />
-  <OurHouse /> -->
+  <OurHouse />
   <Review />
+  <TipsAndTricks />
+  <Subscribe />
 </template>

@@ -20,13 +20,15 @@
         </p>
       </div>
       <div class="flex items-center space-x-6 h-[30rem] overflow-hidden">
-        <div class="relative shrink-0 -mt-20">
+        <div class="relative shrink-0 -mt-40">
           <nuxt-img
             src="/images/review/best.jpg"
             alt="review-best"
-            class="h-[25rem] w-full object-contain"
+            class="h-[20rem] w-full object-contain"
           />
-          <div class="absolute shrink-0 -bottom-[3rem] left-[9rem] w-[30rem] space-y-3 border rounded-2xl bg-white p-5">
+          <div
+            class="absolute shrink-0 -bottom-[3rem] left-4 sm:left-[3rem] w-[21rem] sm:w-[30rem] space-y-3 border rounded-2xl bg-white p-5"
+          >
             <p class="text-[#1B1C57] font-semibold text-[1rem]">
               Best! I got the house I wanted through Hounter
             </p>
@@ -43,11 +45,9 @@
                 </p>
                 <p class="text-[#888B97] text-[0.6rem]">Manager Director</p>
               </div>
-              <div
-                class="rounded-full flex items-center space-x-2 px-3 py-2"
-              >
+              <div class="rounded-full flex items-center space-x-2 px-3 py-2">
                 <svg
-                class="w-5 h-auto"
+                  class="w-5 h-auto"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -60,38 +60,39 @@
                   />
                 </svg>
                 <span class="block text-[#3C4563] text-sm">4.6</span>
-            </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="relative shrink-0 -mt-20">
+        <div class="relative shrink-0 -mt-40">
           <nuxt-img
             src="/images/review/best.jpg"
             alt="review-best"
-            class="h-[25rem] w-full object-contain"
+            class="h-[20rem] w-full object-contain"
           />
-          <div class="absolute shrink-0 -bottom-[3rem] left-[9rem] w-[30rem] space-y-3 border rounded-2xl bg-white p-5">
+          <div
+            class="absolute shrink-0 -bottom-[3rem] left-4 sm:left-[3rem] w-[21rem] sm:w-[30rem] space-y-3 border rounded-2xl bg-white p-5"
+          >
             <p class="text-[#1B1C57] font-semibold text-[1rem]">
-              Best! I got the house I wanted through Hounter
+              Through the Hounter, I can get a house for my self
             </p>
             <p class="text-[0.7rem] text-[#626687]">
-              Through this website I can get a house with the type and
-              specifications I want very easily, without a complicated process
-              to be able to find information on the house we want.
+              By looking for information about what kind of house we want, we
+              managed to get the house we wanted very quickly, and directly
+              connected with the seller to be able to ask about the details,
+              very helpful!
             </p>
             <div class="flex items-center justify-between">
               <nuxt-img src="/images/featured/Dianne.jpg" alt="Dianne.jpg" />
               <div>
                 <p class="text-[0.8rem] font-medium text-[#0E1735]">
-                  Dianne Russell
+                  Esther Howard
                 </p>
-                <p class="text-[#888B97] text-[0.6rem]">Manager Director</p>
+                <p class="text-[#888B97] text-[0.6rem]">Head of Marketing</p>
               </div>
-              <div
-                class="rounded-full flex items-center space-x-2 px-3 py-2"
-              >
+              <div class="rounded-full flex items-center space-x-2 px-3 py-2">
                 <svg
-                class="w-5 h-auto"
+                  class="w-5 h-auto"
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
@@ -104,7 +105,7 @@
                   />
                 </svg>
                 <span class="block text-[#3C4563] text-sm">4.6</span>
-            </div>
+              </div>
             </div>
           </div>
         </div>
