@@ -40,6 +40,7 @@ import Header from "~/components/global/Header.vue";
               />
             </div>
             <button
+              aria-label="search"
               class="block bg-[#10B981] rounded-full flex items-center py-3 px-4"
             >
               <span class="text-white">Search</span>

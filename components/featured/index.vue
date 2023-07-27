@@ -64,7 +64,9 @@ const houses = useState("houses", () => {
 <template>
   <section class="my-20 p-5 sm:px-16">
     <div class="space-y-6">
-      <div class="flex flex-col gap-y-3 sm:flex-row sm:items-center justify-between">
+      <div
+        class="flex flex-col gap-y-3 sm:flex-row sm:items-center justify-between"
+      >
         <div>
           <div class="flex items-center space-x-3">
             <svg
@@ -83,6 +85,7 @@ const houses = useState("houses", () => {
         </div>
         <div class="flex items-center justify-between space-x-5">
           <button
+            aria-label="House"
             class="flex items-center space-x-2 border bg-[#D1FAE5] text-[#10B981] text-semibold px-4 py-2 bg-[#96CBE5] rounded-full"
           >
             <svg
@@ -100,6 +103,7 @@ const houses = useState("houses", () => {
             <p>House</p>
           </button>
           <button
+            aria-label="Villa"
             class="flex items-center space-x-2 border bg-transparent text-semibold px-4 py-2 bg-[#96CBE5] text-[#888B97] rounded-full"
           >
             <svg
@@ -118,6 +122,7 @@ const houses = useState("houses", () => {
             <p>Villa</p>
           </button>
           <button
+            aria-label="Apartment"
             class="flex items-center space-x-2 border bg-transparent text-semibold px-4 py-2 bg-[#96CBE5] text-[#888B97] rounded-full"
           >
             <svg
@@ -137,6 +142,7 @@ const houses = useState("houses", () => {
         </div>
         <div class="flex items-center justify-between space-x-1">
           <button
+            aria-label="chevron-left"
             class="flex items-center space-x-2 border bg-[#E0E3EB] text-[#10B981] text-semibold px-4 py-2 bg-[#96CBE5] rounded-full"
           >
             <svg
@@ -153,6 +159,7 @@ const houses = useState("houses", () => {
             </svg>
           </button>
           <button
+            aria-label="chevron-right"
             class="flex items-center space-x-2 border bg-[#10B981] text-semibold px-4 py-2 rounded-full"
           >
             <svg
@@ -191,7 +198,11 @@ const houses = useState("houses", () => {
                 'bg-[#D1FAE5]': house.tag.name === 'Best Deals',
               }"
             >
-              <nuxt-img :src="house.tag.icon" :alt="house.tag.name" format="webp" />
+              <nuxt-img
+                :src="house.tag.icon"
+                :alt="house.tag.name"
+                format="webp"
+              />
               <p
                 class="text-[0.6rem] mt-[2px]"
                 :class="{

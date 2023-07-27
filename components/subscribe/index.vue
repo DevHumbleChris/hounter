@@ -34,6 +34,7 @@
             />
           </div>
           <button
+            aria-label="Subscribe Now"
             class="block bg-[#10B981] rounded-full flex items-center py-3 justify-center text-white text-center w-1/2 text-xs"
           >
             Subsribe Now

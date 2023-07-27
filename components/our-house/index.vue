@@ -146,6 +146,7 @@
               <p class="text-[#888B97] text-[0.6rem]">Manager Director</p>
             </div>
             <button
+              aria-label="contact now"
               class="block bg-[#10B981] rounded-full flex items-center space-x-2 px-3 py-2"
             >
               <svg
