@@ -83,7 +83,7 @@ const houses = useState("houses", () => {
           </div>
           <p class="text-[#1B1C57] font-semibold text-2xl">Featured House</p>
         </div>
-        <div class="flex items-center justify-between space-x-5">
+        <div class="flex items-center justify-between space-x-5 overflow-x-scroll scrollbar-hide">
           <button
             aria-label="House"
             class="flex items-center space-x-2 border bg-[#D1FAE5] text-[#10B981] text-semibold px-4 py-2 bg-[#96CBE5] rounded-full"
